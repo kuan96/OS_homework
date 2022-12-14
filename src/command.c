@@ -91,9 +91,21 @@ void sigroutine(int sig)
 		if (running->next)
 		{
 			running->next->run++;
-			if ((running->next->run % 3 == 0) && rr_flag) // run 3-ms and back to ready
+			// run 3-ms and back to ready
+			if (rr_flag && (running->next->run % 3 == 0))
 			{
 				// go to ready
+				Task *tmp = running->next;
+				running->next = NULL;
+				strncpy(tmp->state, "ready", 16);
+				insert(&ready_head, &(tmp));
+				// switch to mainprocess to find next ready task
+				swapcontext(&tmp->uctx, &main_process);
+			}
+
+			// preempted by new task
+			if (pp_flag && ready_head->next && (ready_head->next->priority < running->next->priority))
+			{
 				Task *tmp = running->next;
 				running->next = NULL;
 				strncpy(tmp->state, "ready", 16);

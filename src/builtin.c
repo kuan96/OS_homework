@@ -254,6 +254,7 @@ int del(char **args)
 	{
 		if (!strcmp(task_name, task_arr[i]->name))
 		{
+			printf("task %s is killed.\n", task_arr[i]->name);
 			terminate_count++;
 			strncpy(task_arr[i]->state, "terminate", 16);
 			// delete from ready and waiting
@@ -335,6 +336,7 @@ int start(char **args)
 	if (running->next)
 	{
 		printf("task %s is running.\n", running->next->name);
+		strncpy(running->next->state, "running", 16);
 		setcontext(&running->next->uctx);
 	}
 
@@ -342,6 +344,7 @@ int start(char **args)
 	if (cur)
 	{
 		printf("task %s is running.\n", cur->name);
+		strncpy(cur->state, "running", 16);
 		cur = delete (&ready_head, &cur);
 		running->next = cur;
 		setcontext(&cur->uctx);

@@ -1,0 +1,83 @@
+Task aaa is ready
+Task ccc is ready
+Task ddd is ready
+Task eee is ready
+Task fff is ready
+start simulation
+task fff is running.
+task fff gets resource 5.
+task fff goes to sleep
+task aaa is running.
+task aaa gets resource 0.
+task aaa gets resource 1.
+task aaa gets resource 2.
+task aaa goes to sleep
+task eee is running.
+task eee is waiting resource.
+task ddd is running.
+task ddd is waiting resource.
+task ccc is running.
+task ccc is waiting resource.
+cpu idle
+task aaa is running.
+task aaa release resourse 0.
+task aaa release resourse 1.
+task aaa release resourse 2.
+task aaa has terminated
+cpu idle
+task eee is running.
+task eee gets resource 0.
+task eee gets resource 4.
+task eee gets resource 7.
+task eee goes to sleep
+task ddd is running.
+task ddd gets resource 1.
+task ddd gets resource 3.
+task ddd gets resource 6.
+task ddd goes to sleep
+task ccc is running.
+task ccc gets resource 2.
+task ccc gets resource 4.
+task ccc goes to sleep
+cpu idle
+task fff is running.
+task fff is waiting resource.
+cpu idle
+task eee is running.
+task eee release resourse 0.
+task eee release resourse 4.
+task eee release resourse 7.
+task eee has terminated
+cpu idle
+task ccc is running.
+task ccc release resourse 2.
+task ccc release resourse 4.
+task ccc has terminated
+cpu idle
+task ddd is running.
+task ddd release resourse 1.
+task ddd release resourse 3.
+task ddd release resourse 6.
+task ddd has terminated
+cpu idle
+task fff is running.
+task fff gets resource 4.
+task fff gets resource 6.
+task fff goes to sleep
+cpu idle
+task fff is running.
+task fff release resourse 4.
+task fff release resourse 5.
+task fff release resourse 6.
+task fff has terminated
+simulation over.
+
+*************************************************************************************************
+* TID  |  Name  |     State     |  Running  |  Waiting  | Turnaround |  Resources  |  Priority *
+-------------------------------------------------------------------------------------------------
+*  1   |   aaa   |   terminate   |     0     |     70     |      70      |    none    |     2     *
+*  2   |   ccc   |   terminate   |     0     |     131     |      131      |    none    |     5     *
+*  3   |   ddd   |   terminate   |     0     |     151     |      151      |    none    |     4     *
+*  4   |   eee   |   terminate   |     0     |     111     |      111      |    none    |     3     *
+*  5   |   fff   |   terminate   |     0     |     192     |      192      |    none    |     1     *
+*************************************************************************************************

@@ -1,0 +1,154 @@
+Task aaa is ready
+Task bbb is ready
+Task ccc is ready
+Task ddd is ready
+Task eee is ready
+Task fff is ready
+Task ggg is ready
+Task hhh is ready
+Task iii is ready
+Task jjj is ready
+Task kkk is ready
+Task lll is ready
+Task mmm is ready
+Task nnn is ready
+Task ooo is ready
+Task ppp is ready
+Task qqq is ready
+Task rrr is ready
+Task sss is ready
+Task ttt is ready
+Task uuu is ready
+Task vvv is ready
+Task www is ready
+Task xxx is ready
+Task yyy is ready
+Task zzz is ready
+start simulation
+task vvv is running.
+task vvv gets resource 0.
+task vvv gets resource 1.
+task vvv gets resource 2.
+task vvv goes to sleep
+task aaa is running.
+task aaa has terminated
+task bbb is running.
+task bbb has terminated
+task ccc is running.
+task ccc has terminated
+task ddd is running.
+task ddd has terminated
+task eee is running.
+task eee has terminated
+task fff is running.
+task fff has terminated
+task ggg is running.
+task ggg has terminated
+task vvv is running.
+task vvv release resourse 0.
+task vvv release resourse 1.
+task vvv release resourse 2.
+task vvv has terminated
+task hhh is running.
+task hhh has terminated
+task iii is running.
+task iii has terminated
+task www is running.
+task www gets resource 1.
+task www gets resource 4.
+task www goes to sleep
+task jjj is running.
+task jjj has terminated
+task kkk is running.
+task kkk has terminated
+task www is running.
+task www gets resource 5.
+task www goes to sleep
+task lll is running.
+task lll has terminated
+task mmm is running.
+task mmm has terminated
+task nnn is running.
+task nnn has terminated
+task ooo is running.
+task ooo has terminated
+task www is running.
+task www release resourse 1.
+task www release resourse 4.
+task www release resourse 5.
+task www has terminated
+task ppp is running.
+task ppp has terminated
+task xxx is running.
+task xxx gets resource 2.
+task xxx gets resource 4.
+task xxx goes to sleep
+task yyy is running.
+task yyy gets resource 1.
+task yyy gets resource 3.
+task yyy gets resource 6.
+task yyy goes to sleep
+task qqq is running.
+task qqq has terminated
+task rrr is running.
+task rrr has terminated
+task sss is running.
+task sss has terminated
+task zzz is running.
+task zzz is waiting resource.
+task ttt is running.
+task ttt has terminated
+task xxx is running.
+task xxx release resourse 2.
+task xxx release resourse 4.
+task xxx has terminated
+task yyy is running.
+task yyy release resourse 1.
+task yyy release resourse 3.
+task yyy release resourse 6.
+task yyy has terminated
+task uuu is running.
+task uuu has terminated
+task zzz is running.
+task zzz gets resource 0.
+task zzz gets resource 4.
+task zzz gets resource 7.
+task zzz goes to sleep
+cpu idle
+task zzz is running.
+task zzz release resourse 0.
+task zzz release resourse 4.
+task zzz release resourse 7.
+task zzz has terminated
+simulation over.
+
+*************************************************************************************************
+* TID  |  Name  |     State     |  Running  |  Waiting  | Turnaround |  Resources  |  Priority *
+-------------------------------------------------------------------------------------------------
+*  1   |   aaa   |   terminate   |     8     |     0     |      8      |    none    |     2     *
+*  2   |   bbb   |   terminate   |     10     |     0     |      18      |    none    |     3     *
+*  3   |   ccc   |   terminate   |     10     |     0     |      28      |    none    |     4     *
+*  4   |   ddd   |   terminate   |     10     |     0     |      38      |    none    |     5     *
+*  5   |   eee   |   terminate   |     11     |     0     |      49      |    none    |     6     *
+*  6   |   fff   |   terminate   |     10     |     0     |      59      |    none    |     7     *
+*  7   |   ggg   |   terminate   |     12     |     0     |      71      |    none    |     8     *
+*  8   |   hhh   |   terminate   |     11     |     0     |      82      |    none    |     9     *
+*  9   |   iii   |   terminate   |     10     |     0     |      92      |    none    |     10     *
+*  10   |   jjj   |   terminate   |     10     |     0     |      102      |    none    |     12     *
+*  11   |   kkk   |   terminate   |     12     |     0     |      114      |    none    |     13     *
+*  12   |   lll   |   terminate   |     10     |     0     |      124      |    none    |     14     *
+*  13   |   mmm   |   terminate   |     11     |     0     |      135      |    none    |     15     *
+*  14   |   nnn   |   terminate   |     13     |     0     |      148      |    none    |     16     *
+*  15   |   ooo   |   terminate   |     10     |     0     |      158      |    none    |     17     *
+*  16   |   ppp   |   terminate   |     9     |     0     |      167      |    none    |     18     *
+*  17   |   qqq   |   terminate   |     11     |     0     |      178      |    none    |     21     *
+*  18   |   rrr   |   terminate   |     11     |     0     |      189      |    none    |     22     *
+*  19   |   sss   |   terminate   |     32     |     0     |      221      |    none    |     23     *
+*  20   |   ttt   |   terminate   |     33     |     0     |      254      |    none    |     25     *
+*  21   |   uuu   |   terminate   |     63     |     0     |      317      |    none    |     26     *
+*  22   |   vvv   |   terminate   |     0     |     70     |      71      |    none    |     1     *
+*  23   |   www   |   terminate   |     0     |     60     |      158      |    none    |     11     *
+*  24   |   xxx   |   terminate   |     0     |     60     |      254      |    none    |     19     *
+*  25   |   yyy   |   terminate   |     0     |     80     |      254      |    none    |     20     *
+*  26   |   zzz   |   terminate   |     0     |     74     |      357      |    none    |     24     *
+*************************************************************************************************

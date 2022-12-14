@@ -1,0 +1,105 @@
+Task kkk is ready
+Task aaa is ready
+Task bbb is ready
+Task ccc is ready
+Task ddd is ready
+Task eee is ready
+Task fff is ready
+Task ggg is ready
+Task hhh is ready
+Task iii is ready
+
+start simulation
+task ddd is running.
+task ddd has terminated
+task eee is running.
+task fff is running.
+task fff has terminated
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task ggg is running.
+task eee is running.
+task eee has terminated
+task ggg is running.
+task ggg is running.
+task ggg has terminated
+simulation over.
+
+Task zzz is ready
+Task yyy is ready
+Task xxx is ready
+Task www is ready
+Task vvv is ready
+Task uuu is ready
+
+start simulation
+task zzz is running.
+task zzz has terminated
+task yyy is running.
+task yyy goes to sleep
+task xxx is running.
+task xxx has terminated
+task www is running.
+task www goes to sleep
+task vvv is running.
+task vvv has terminated
+task uuu is running.
+task uuu goes to sleep
+cpu idle
+task yyy is running.
+task yyy has terminated
+task www is running.
+task www has terminated
+task uuu is running.
+task uuu has terminated
+simulation over.
+
+Task mmm is ready
+Task nnn is ready
+Task ooo is ready
+
+start simulation
+task mmm is running.
+task mmm goes to sleep
+task nnn is running.
+task nnn is waiting resource.
+task ooo is running.
+task ooo is running.
+task mmm is running.
+task mmm release resourse 1.
+task mmm release resourse 3.
+task mmm release resourse 7.
+task mmm has terminated
+task ooo is running.
+task nnn is running.
+task nnn release resourse 0.
+task nnn release resourse 3.
+task nnn has terminated
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo is running.
+task ooo has terminated
+simulation over.

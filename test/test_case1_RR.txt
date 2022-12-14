@@ -1,0 +1,93 @@
+uuu is running.
+task nnn is running.
+task nnn has terminated
+task www is running.
+task www gets resource 5.
+task www goes to sleep
+task sss is running.
+task ttt is running.
+task uuu is running.
+task sss is running.
+task ttt is running.
+task uuu is running.
+task zzz is running.
+task zzz release resourse 0.
+task zzz release resourse 4.
+task zzz release resourse 7.
+task zzz has terminated
+task sss is running.
+task ttt is running.
+task uuu is running.
+task sss is running.
+task ttt is running.
+task uuu is running.
+task xxx is running.
+task xxx release resourse 2.
+task xxx release resourse 4.
+task xxx has terminated
+task sss is running.
+task ttt is running.
+task uuu is running.
+task sss is running.
+task www is running.
+task www release resourse 1.
+task www release resourse 4.
+task www release resourse 5.
+task www has terminated
+task ttt is running.
+task uuu is running.
+task sss is running.
+task yyy is running.
+task yyy release resourse 1.
+task yyy release resourse 3.
+task yyy release resourse 6.
+task yyy has terminated
+task ttt is running.
+task ttt has terminated
+task uuu is running.
+task sss is running.
+task sss has terminated
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu is running.
+task uuu has terminated
+simulation over.
+
+*************************************************************************************************
+* TID  |  Name  |     State     |  Running  |  Waiting  | Turnaround |  Resources  |  Priority *
+-------------------------------------------------------------------------------------------------
+*  1   |   aaa   |   terminate   |     13     |     0     |      249      |    none    |     2     *
+*  2   |   bbb   |   terminate   |     13     |     0     |      250      |    none    |     3     *
+*  3   |   ccc   |   terminate   |     13     |     0     |      251      |    none    |     4     *
+*  4   |   ddd   |   terminate   |     13     |     0     |      252      |    none    |     5     *
+*  5   |   eee   |   terminate   |     13     |     0     |      253      |    none    |     6     *
+*  6   |   fff   |   terminate   |     13     |     0     |      254      |    none    |     7     *
+*  7   |   ggg   |   terminate   |     14     |     0     |      256      |    none    |     8     *
+*  8   |   hhh   |   terminate   |     14     |     0     |      258      |    none    |     9     *
+*  9   |   iii   |   terminate   |     14     |     0     |      260      |    none    |     10     *
+*  10   |   jjj   |   terminate   |     14     |     0     |      262      |    none    |     12     *
+*  11   |   kkk   |   terminate   |     12     |     0     |      262      |    none    |     13     *
+*  12   |   lll   |   terminate   |     13     |     0     |      263      |    none    |     14     *
+*  13   |   mmm   |   terminate   |     10     |     0     |      226      |    none    |     15     *
+*  14   |   nnn   |   terminate   |     16     |     0     |      280      |    none    |     16     *
+*  15   |   ooo   |   terminate   |     12     |     0     |      266      |    none    |     17     *
+*  16   |   ppp   |   terminate   |     14     |     0     |      268      |    none    |     18     *
+*  17   |   qqq   |   terminate   |     14     |     0     |      270      |    none    |     21     *
+*  18   |   rrr   |   terminate   |     10     |     0     |      239      |    none    |     22     *
+*  19   |   sss   |   terminate   |     36     |     0     |      342      |    none    |     23     *
+*  20   |   ttt   |   terminate   |     35     |     0     |      339      |    none    |     25     *
+*  21   |   uuu   |   terminate   |     68     |     0     |      374      |    none    |     26     *
+*  22   |   vvv   |   terminate   |     0     |     70     |      195      |    none    |     1     *
+*  23   |   www   |   terminate   |     0     |     193     |      328      |    none    |     11     *
+*  24   |   xxx   |   terminate   |     0     |     193     |      316      |    none    |     19     *
+*  25   |   yyy   |   terminate   |     0     |     213     |      337      |    none    |     20     *
+*  26   |   zzz   |   terminate   |     0     |     173     |      298      |    none    |     24     *
+*************************************************************************************************
